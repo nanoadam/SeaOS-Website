@@ -1,0 +1,125 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #0077be;
+}
+
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Utility Classes */
+.btn {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  border: 3px solid white;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 1s ease-in;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+header nav #brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  background: url('../img/beach-dawn-desktop-backgrounds-1532771.jpg') no-repeat;
+}
+
+header nav #main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #006994;
+}
+
+header nav #main-nav li {
+  list-style-type: none;
+}
+
+header nav #main-nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  display: block;
+  margin: 1rem;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.section {
+  background: url('../img/beach-bora-bora-flow-21787.jpg') center/cover no-repeat;
+}
+
+.section div h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.section div p {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section strong {
+  text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section div h2 {
+    font-size: 2.5rem;
+  }
+
+  .section div p {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+}
