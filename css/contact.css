@@ -1,5 +1,5 @@
 /* Font Import */
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap");
 
 /* General Reset */
 * {
@@ -9,13 +9,18 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: #0077be;
 }
 
 /* Headings Font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
 
 /* Utility Classes */
@@ -52,7 +57,7 @@ header nav #brand {
   color: black;
   font-size: 5rem;
   text-align: center;
-  background: url('../img/beach-dawn-desktop-backgrounds-1532771.jpg') no-repeat;
+  background: url("../img/beach-dawn-desktop-backgrounds-1532771.jpg") no-repeat;
 }
 
 header nav #main-nav {
@@ -84,7 +89,8 @@ header nav #main-nav ul li a {
 }
 
 .section {
-  background: url('../img/beach-bora-bora-flow-21787.jpg') center/cover no-repeat;
+  background: url("../img/beach-bora-bora-flow-21787.jpg") center/cover
+    no-repeat;
 }
 
 .section div h2 {
@@ -101,7 +107,6 @@ header nav #main-nav ul li a {
 .section strong {
   text-transform: capitalize;
 }
-
 
 @media only screen and (max-width: 800px) {
   nav {
@@ -122,4 +127,10 @@ header nav #main-nav ul li a {
     font-size: 1.3rem;
     font-weight: 800;
   }
+}
+
+.card {
+  padding: 1rem;
+  background-color: white;
+  color: black;
 }
