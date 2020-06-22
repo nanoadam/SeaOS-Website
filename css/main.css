@@ -1,5 +1,5 @@
 /* Font Import */
-@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
 
 /* General Reset */
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: #0077be;
 }
 
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Utility Classes */
@@ -56,8 +56,7 @@ header nav #brand {
   font-weight: bold;
   color: white;
   text-align: center;
-  background: url("../img/aerial-shot-bird-s-eye-view-from-above-392586.jpg")
-    no-repeat;
+  background: url('../img/beach-cliffs-evening-977736.jpg') no-repeat;
 }
 
 header nav #brand h1 {
@@ -93,23 +92,32 @@ header nav #main-nav ul li a {
 }
 
 .section-a {
-  background: url("../img/beach-dawn-desktop-backgrounds-1532771.jpg") no-repeat
-    center/cover;
+  background: url('../img/blue-ocean-sea-60004.jpg') no-repeat center/cover;
 }
 
 .section div h2 {
   text-transform: uppercase;
   font-size: 4rem;
+  width: 80%;
+  margin: 0 auto;
+  background: #0077be;
+  color: white;
+  padding: 1rem;
 }
 
 .section div p {
   text-transform: capitalize;
   font-size: 1.5rem;
+  background: #0077be;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  padding: 1rem;
 }
 
 .section-b {
   height: 100vh;
-  background: url("../img/beach-cliffs-evening-977736.jpg") no-repeat
+  background: url('../img/beach-cliffs-evening-977736.jpg') no-repeat
     center/cover;
 }
 
@@ -145,7 +153,7 @@ header nav #main-nav ul li a {
 }
 
 .section-c {
-  background: url("../img/blue-ocean-sea-60004.jpg") no-repeat center/cover;
+  background: url('../img/blue-ocean-sea-60004.jpg') no-repeat center/cover;
 }
 
 .section-c p {
